@@ -4,7 +4,6 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '1.3.8'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.1'
@@ -26,6 +25,10 @@ gem 'turbolinks', '1.1.1'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '1.0.2'
+
+group :development do
+  gem 'sqlite3', '1.3.8'
+end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
